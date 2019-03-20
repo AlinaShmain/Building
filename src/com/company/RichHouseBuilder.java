@@ -1,6 +1,6 @@
 package com.company;
 
-public class RichHouseBuilder extends HouseBuilder {
+public class RichHouseBuilder implements HouseBuilder {
 
     @Override
     public void buildRoof() {
