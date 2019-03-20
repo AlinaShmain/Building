@@ -1,9 +1,9 @@
 package com.company;
 
-interface HouseBuilder {
+public abstract class HouseBuilder {
 
-    void buildRoof();
-    void buildFloor();
-    void buildBasement();
-    void buildYard();
+    public abstract void buildRoof();
+    public abstract void buildFloor();
+    public abstract void buildBasement();
+    public abstract void buildYard();
 }
